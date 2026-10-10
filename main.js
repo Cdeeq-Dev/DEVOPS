@@ -1,4 +1,6 @@
-const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+const tasks = typeof localStorage !== 'undefined' 
+  ? JSON.parse(localStorage.getItem('tasks') || '[]') 
+  : [];
 let currentFilter = 'all';
 let searchQuery = '';
 
