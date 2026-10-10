@@ -4,8 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-  "test": "echo \"No tests specified yet\" && exit 0"
-},
+    "run": "node main.js",
+    "test": "node main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cdeeq-Dev/DEVOPS.git"
